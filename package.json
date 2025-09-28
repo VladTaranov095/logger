@@ -1,0 +1,27 @@
+{
+  "name": "docs-and-api-test-playwrithe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:debug": "LOG_LEVEL=debug npx playwright test",
+    "test:info": "LOG_LEVEL=info npx playwright test",
+    "test:warn": "LOG_LEVEL=warn npx playwright test",
+    "test:error": "LOG_LEVEL=error npx playwright test",
+    "test:fatal": "LOG_LEVEL=fatal npx playwright test",
+    "test:trace": "LOG_LEVEL=trace npx playwright test",
+    "test:off": "LOG_LEVEL=off npx playwright test",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.26",
+    "dotenv": "^17.2.2"
+  },
+  "dependencies": {
+    "log4js": "^6.9.1"
+  }
+}

@@ -1,0 +1,195 @@
+[2025-07-06T19:40:01.143] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-06T19:40:01.154] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-06T19:45:15.833] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-06T19:45:15.841] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-06T19:45:32.537] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-06T19:45:32.543] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-06T19:45:32.543] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-06T19:45:32.543] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-06T19:45:32.544] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-06T19:47:00.355] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T12:55:34.001] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T12:55:34.006] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T12:55:34.006] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T12:55:34.007] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T12:55:41.125] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-09T12:59:52.330] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T12:59:52.334] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T12:59:52.336] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T12:59:52.336] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T12:59:55.701] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-09T13:00:28.916] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T13:00:28.925] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T13:00:28.925] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T13:00:28.925] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T13:00:33.792] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-09T13:02:18.579] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T13:02:18.585] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T13:02:18.585] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T13:02:18.585] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T13:02:22.061] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-09T13:03:14.564] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T13:03:14.571] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T13:03:14.572] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T13:03:14.572] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T13:03:19.058] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-09T13:05:10.251] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-09T13:05:10.257] [INFO] test - Starting test: Check text content on page Docs
+[2025-07-09T13:05:10.257] [TRACE] test - Starting test: Check text content on page Docs
+[2025-07-09T13:05:10.257] [ERROR] test - Starting test: Check text content on page Docs
+[2025-07-09T13:05:18.244] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-13T09:25:12.479] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-13T09:25:12.483] [INFO] test - Go to playwrite site
+[2025-07-13T09:25:14.611] [DEBUG] test - Successfully navigated to the website
+[2025-07-13T09:25:14.611] [INFO] test - Click on Docs
+[2025-07-13T09:25:14.857] [DEBUG] test - Successfully navigated to the Docs
+[2025-07-13T09:25:14.858] [INFO] test - Click on Writing Test
+[2025-07-13T09:25:15.564] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-07-13T09:25:15.564] [INFO] test - Take all text on this page
+[2025-07-13T09:25:15.635] [INFO] test - Check this page
+[2025-07-13T09:25:15.643] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-13T09:25:30.022] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-13T09:25:30.029] [INFO] test - Go to playwrite site
+[2025-07-13T09:25:32.831] [DEBUG] test - Successfully navigated to the website
+[2025-07-13T09:25:32.832] [INFO] test - Click on Docs
+[2025-07-13T09:25:33.803] [DEBUG] test - Successfully navigated to the Docs
+[2025-07-13T09:25:33.805] [INFO] test - Click on Writing Test
+[2025-07-13T09:25:34.302] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-07-13T09:25:34.302] [INFO] test - Take all text on this page
+[2025-07-13T09:25:34.365] [INFO] test - Check this page
+[2025-07-13T09:25:34.371] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-13T09:39:14.234] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-13T09:39:14.240] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-07-13T09:39:20.141] [DEBUG] test - Successfully navigated to: https://playwright.dev
+[2025-07-13T09:39:20.141] [INFO] test - Click on Docs
+[2025-07-13T09:39:20.332] [DEBUG] test - Successfully navigated to the Docs
+[2025-07-13T09:39:20.332] [INFO] test - Click on Writing Test
+[2025-07-13T09:39:21.101] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-07-13T09:39:21.102] [INFO] test - Checking if page contains text: "You"
+[2025-07-13T09:39:21.322] [DEBUG] test - Try to find text content: "You"
+[2025-07-13T09:39:21.323] [INFO] test - Check this page
+[2025-07-13T09:39:21.330] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-07-17T12:08:09.074] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-07-17T12:08:09.084] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-07-17T12:08:11.276] [DEBUG] test - Successfully navigated to: https://playwright.dev
+[2025-07-17T12:08:11.277] [INFO] test - Click on Docs
+[2025-07-17T12:08:11.659] [DEBUG] test - Successfully navigated to the Docs
+[2025-07-17T12:08:11.660] [INFO] test - Click on Writing Test
+[2025-07-17T12:08:12.924] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-07-17T12:08:12.926] [INFO] test - Checking if page contains text: "You"
+[2025-07-17T12:08:13.120] [DEBUG] test - Try to find text content: "You"
+[2025-07-17T12:08:13.121] [INFO] test - Check this page
+[2025-07-17T12:08:13.138] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-08-05T13:22:19.142] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-08-05T13:22:19.156] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-08-05T13:22:23.354] [DEBUG] test - Successfully navigated to: https://playwright.dev
+[2025-08-05T13:22:23.355] [INFO] test - Click on Docs
+[2025-08-05T13:22:23.983] [DEBUG] test - Successfully navigated to the Docs
+[2025-08-05T13:22:23.984] [INFO] test - Click on Writing Test
+[2025-08-05T13:22:25.758] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-08-05T13:22:25.759] [INFO] test - Checking if page contains text: "You"
+[2025-08-05T13:22:25.813] [DEBUG] test - Try to find text content: "You"
+[2025-08-05T13:22:25.815] [INFO] test - Check this page
+[2025-08-05T13:22:25.826] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-08-05T13:23:12.958] [DEBUG] test - Starting test: Check text content on page Docs
+[2025-08-05T13:23:12.971] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-08-05T13:23:13.872] [DEBUG] test - Successfully navigated to: https://playwright.dev
+[2025-08-05T13:23:13.872] [INFO] test - Click on Docs
+[2025-08-05T13:23:14.259] [DEBUG] test - Successfully navigated to the Docs
+[2025-08-05T13:23:14.260] [INFO] test - Click on Writing Test
+[2025-08-05T13:23:15.333] [DEBUG] test - Successfully navigated to the 'Writing Test' 
+[2025-08-05T13:23:15.334] [INFO] test - Checking if page contains text: "You"
+[2025-08-05T13:23:15.411] [DEBUG] test - Try to find text content: "You"
+[2025-08-05T13:23:15.413] [INFO] test - Check this page
+[2025-08-05T13:23:15.435] [DEBUG] test - Test passed: Check text content on page Docs
+[2025-09-08T19:05:31.617] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:05:32.699] [INFO] test - Click on Docs
+[2025-09-08T19:05:33.062] [INFO] test - Click on Writing Test
+[2025-09-08T19:05:34.277] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:05:34.369] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:05:34.370] [INFO] test - Check this page
+[2025-09-08T19:11:54.782] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:11:55.687] [INFO] test - Click on Docs
+[2025-09-08T19:11:56.541] [INFO] test - Click on Writing Test
+[2025-09-08T19:11:57.275] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:11:57.383] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:11:57.384] [INFO] test - Check this page
+[2025-09-08T19:17:23.248] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:17:24.250] [INFO] test - Click on Docs
+[2025-09-08T19:17:25.012] [INFO] test - Click on Writing Test
+[2025-09-08T19:17:25.670] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:17:25.782] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:17:25.783] [INFO] test - Check this page
+[2025-09-08T19:17:41.697] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:17:42.633] [INFO] test - Click on Docs
+[2025-09-08T19:17:43.029] [INFO] test - Click on Writing Test
+[2025-09-08T19:17:43.918] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:17:44.028] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:17:44.029] [INFO] test - Check this page
+[2025-09-08T19:18:00.327] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:18:01.210] [INFO] test - Click on Docs
+[2025-09-08T19:18:01.554] [INFO] test - Click on Writing Test
+[2025-09-08T19:18:02.738] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:18:02.818] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:18:02.819] [INFO] test - Check this page
+[2025-09-08T19:18:24.265] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:18:25.143] [INFO] test - Click on Docs
+[2025-09-08T19:18:25.505] [INFO] test - Click on Writing Test
+[2025-09-08T19:18:26.493] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:18:26.601] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:18:26.601] [INFO] test - Check this page
+[2025-09-08T19:18:44.882] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:18:45.860] [INFO] test - Click on Docs
+[2025-09-08T19:18:46.318] [INFO] test - Click on Writing Test
+[2025-09-08T19:18:47.113] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:18:47.170] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:18:47.171] [INFO] test - Check this page
+[2025-09-08T19:19:29.066] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:19:29.961] [INFO] test - Click on Docs
+[2025-09-08T19:19:30.389] [INFO] test - Click on Writing Test
+[2025-09-08T19:19:31.397] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:19:31.467] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:19:31.467] [INFO] test - Check this page
+[2025-09-08T19:31:15.753] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:31:17.166] [INFO] test - Click on Docs
+[2025-09-08T19:31:17.470] [INFO] test - Click on Writing Test
+[2025-09-08T19:31:18.435] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:31:18.507] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:31:18.507] [INFO] test - Check this page
+[2025-09-08T19:31:41.266] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-08T19:31:42.134] [INFO] test - Click on Docs
+[2025-09-08T19:31:42.519] [INFO] test - Click on Writing Test
+[2025-09-08T19:31:43.429] [INFO] test - Checking if page contains text: "You"
+[2025-09-08T19:31:43.541] [DEBUG] test - Try to find text content: "You"
+[2025-09-08T19:31:43.541] [INFO] test - Check this page
+[2025-09-10T12:53:51.003] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-28T18:01:23.286] [INFO] test - Navigating to: https://playwright.dev
+[2025-09-28T18:01:24.396] [INFO] test - Click on Api
+[2025-09-28T18:01:25.198] [INFO] test - Click on ApiRequest
+[2025-09-28T18:01:25.715] [INFO] test - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:01:25.775] [DEBUG] test - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:01:25.775] [INFO] test - Check this page
+[2025-09-28T18:01:49.373] [INFO] test - Navigating to: https://playwright.dev
+[2025-09-28T18:01:50.325] [INFO] test - Click on Api
+[2025-09-28T18:01:50.658] [INFO] test - Click on ApiRequest
+[2025-09-28T18:01:51.689] [INFO] test - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:01:51.761] [DEBUG] test - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:01:51.762] [INFO] test - Check this page
+[2025-09-28T18:02:09.557] [INFO] test - Successfully navigated to: https://playwright.dev
+[2025-09-28T18:02:10.518] [INFO] test - Click on Docs
+[2025-09-28T18:02:10.921] [INFO] test - Click on Writing Test
+[2025-09-28T18:02:11.809] [INFO] test - Checking if page contains text: "You"
+[2025-09-28T18:02:11.909] [DEBUG] test - Try to find text content: "You"
+[2025-09-28T18:02:11.909] [INFO] test - Check this page
+[2025-09-28T18:25:32.295] [INFO] test - Navigating to: https://playwright.dev
+[2025-09-28T18:25:33.475] [INFO] test - Click on Api
+[2025-09-28T18:25:33.869] [INFO] test - Click on ApiRequest
+[2025-09-28T18:25:35.017] [INFO] test - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:25:35.084] [DEBUG] test - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:25:35.084] [INFO] test - Check this page
+[2025-09-28T18:31:50.764] [INFO] test - Navigating to: https://playwright.dev
+[2025-09-28T18:31:52.124] [INFO] test - Click on Api
+[2025-09-28T18:31:52.437] [INFO] test - Click on ApiRequest
+[2025-09-28T18:31:53.741] [INFO] test - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:31:53.808] [DEBUG] test - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2025-09-28T18:31:53.808] [INFO] test - Check this page
