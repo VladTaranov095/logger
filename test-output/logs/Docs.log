@@ -1,0 +1,32 @@
+[2025-10-05T19:19:12.282] [INFO] test - Click on Docs
+[2025-10-05T19:19:12.759] [INFO] test - Click on Writing Test
+[2025-10-05T19:19:14.374] [INFO] test - Checking if page contains text: "You"
+[2025-10-05T19:19:14.495] [DEBUG] test - Try to find text content: "You"
+[2025-10-05T19:19:14.495] [INFO] test - Check this page
+[2025-10-05T19:20:54.977] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-05T19:20:56.337] [INFO] test - Click on Docs
+[2025-10-05T19:20:56.673] [INFO] test - Click on Writing Test
+[2025-10-05T19:20:57.845] [INFO] test - Checking if page contains text: "You"
+[2025-10-05T19:20:57.917] [DEBUG] test - Try to find text content: "You"
+[2025-10-05T19:20:57.917] [INFO] test - Check this page
+[2025-10-05T19:26:34.886] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-05T19:26:40.110] [INFO] test - Click on Docs
+[2025-10-05T19:26:40.459] [INFO] test - Click on Writing Test
+[2025-10-05T19:27:21.436] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-05T19:27:22.708] [INFO] test - Click on Docs
+[2025-10-05T19:27:23.161] [INFO] test - Click on Writing Test
+[2025-10-05T19:27:24.305] [INFO] test - Checking if page contains text: "You"
+[2025-10-05T19:27:24.405] [DEBUG] test - Try to find text content: "You"
+[2025-10-05T19:27:24.405] [INFO] test - Check this page
+[2025-10-05T19:27:49.536] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-05T19:27:51.210] [INFO] test - Click on Docs
+[2025-10-05T19:27:51.512] [INFO] test - Click on Writing Test
+[2025-10-05T19:27:52.959] [INFO] test - Checking if page contains text: "You"
+[2025-10-05T19:27:53.034] [DEBUG] test - Try to find text content: "You"
+[2025-10-05T19:27:53.035] [INFO] test - Check this page
+[2025-10-05T19:31:56.792] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-05T19:31:57.917] [INFO] test - Click on Docs
+[2025-10-05T19:31:58.326] [INFO] test - Click on Writing Test
+[2025-10-05T19:31:59.506] [INFO] test - Checking if page contains text: "You"
+[2025-10-05T19:31:59.651] [DEBUG] test - Try to find text content: "You"
+[2025-10-05T19:31:59.651] [INFO] test - Check this page
