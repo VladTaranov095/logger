@@ -30,3 +30,87 @@
 [2025-10-05T19:31:59.506] [INFO] test - Checking if page contains text: "You"
 [2025-10-05T19:31:59.651] [DEBUG] test - Try to find text content: "You"
 [2025-10-05T19:31:59.651] [INFO] test - Check this page
+[2025-10-06T18:05:09.522] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-06T18:05:10.756] [INFO] test - Click on Docs
+[2025-10-06T18:05:11.114] [INFO] test - Click on Writing Test
+[2025-10-06T18:05:12.240] [INFO] test - Checking if page contains text: "You"
+[2025-10-06T18:05:12.346] [DEBUG] test - Try to find text content: "You"
+[2025-10-06T18:05:12.347] [INFO] test - Check this page
+[2025-10-06T18:14:22.888] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-06T18:14:23.884] [INFO] test - Click on Docs
+[2025-10-06T18:14:24.201] [INFO] test - Click on Writing Test
+[2025-10-06T18:14:25.163] [INFO] test - Checking if page contains text: "You"
+[2025-10-06T18:14:25.261] [DEBUG] test - Try to find text content: "You"
+[2025-10-06T18:14:25.261] [INFO] test - Check this page
+[2025-10-06T18:14:48.447] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-06T18:14:49.414] [INFO] test - Click on Docs
+[2025-10-06T18:14:49.869] [INFO] test - Click on Writing Test
+[2025-10-06T18:14:50.900] [INFO] test - Checking if page contains text: "You"
+[2025-10-06T18:14:51.013] [DEBUG] test - Try to find text content: "You"
+[2025-10-06T18:14:51.014] [INFO] test - Check this page
+[2025-10-12T17:32:43.741] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-12T17:32:44.919] [INFO] test - Click on Docs
+[2025-10-12T17:32:45.205] [INFO] test - Click on Writing Test
+[2025-10-12T17:32:46.320] [INFO] test - Checking if page contains text: "You"
+[2025-10-12T17:32:46.420] [DEBUG] test - Try to find text content: "You"
+[2025-10-12T17:32:46.420] [INFO] test - Check this page
+[2025-10-12T17:34:16.808] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-12T17:34:17.744] [INFO] test - Click on Docs
+[2025-10-12T17:34:18.032] [INFO] test - Click on Writing Test
+[2025-10-12T17:34:18.769] [INFO] test - Checking if page contains text: "You"
+[2025-10-12T17:34:18.820] [DEBUG] test - Try to find text content: "You"
+[2025-10-12T17:34:18.820] [INFO] test - Check this page
+[2025-10-12T17:37:04.553] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-12T17:37:05.608] [INFO] test - Click on Docs
+[2025-10-12T17:37:05.915] [INFO] test - Click on Writing Test
+[2025-10-12T17:37:06.727] [INFO] test - Checking if page contains text: "You"
+[2025-10-12T17:37:06.776] [DEBUG] test - Try to find text content: "You"
+[2025-10-12T17:37:06.776] [INFO] test - Check this page
+[2025-10-12T17:37:39.847] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-12T17:37:41.273] [INFO] test - Click on Docs
+[2025-10-12T17:37:41.561] [INFO] test - Click on Writing Test
+[2025-10-12T17:37:42.449] [INFO] test - Checking if page contains text: "You"
+[2025-10-12T17:37:42.497] [DEBUG] test - Try to find text content: "You"
+[2025-10-12T17:37:42.498] [INFO] test - Check this page
+[2025-10-12T17:48:58.938] [INFO] test - Navigating to: https://playwright.dev
+[2025-10-12T17:48:59.924] [INFO] test - Click on Docs
+[2025-10-12T17:49:00.195] [INFO] test - Click on Writing Test
+[2025-10-12T17:49:01.494] [INFO] test - Checking if page contains text: "You"
+[2025-10-12T17:49:01.570] [DEBUG] test - Try to find text content: "You"
+[2025-10-12T17:49:01.570] [INFO] test - Check this page
+[2025-10-12T19:47:10.535] [INFO] Docs - Navigating to: https://playwright.dev
+[2025-10-12T19:47:11.601] [INFO] Docs - Click on Docs
+[2025-10-12T19:47:12.433] [INFO] Docs - Click on Writing Test
+[2025-10-12T19:47:12.874] [INFO] Docs - Checking if page contains text: "You"
+[2025-10-12T19:47:12.924] [DEBUG] Docs - Try to find text content: "You"
+[2025-10-12T19:47:12.924] [INFO] Docs - Check this page
+[2025-10-12T19:49:39.663] [INFO] Docs - Navigating to: https://playwright.dev
+[2025-10-12T19:49:40.647] [INFO] Docs - Click on Docs
+[2025-10-12T19:49:41.014] [INFO] Docs - Click on Writing Test
+[2025-10-12T19:49:41.946] [INFO] Docs - Checking if page contains text: "You"
+[2025-10-12T19:49:41.989] [DEBUG] Docs - Try to find text content: "You"
+[2025-10-12T19:49:41.989] [INFO] Docs - Check this page
+[2025-10-12T19:50:26.274] [INFO] Docs - Navigating to: https://playwright.dev
+[2025-10-12T19:50:27.260] [INFO] Docs - Click on Docs
+[2025-10-12T19:50:27.636] [INFO] Docs - Click on Writing Test
+[2025-10-12T19:50:29.290] [INFO] Docs - Checking if page contains text: "You"
+[2025-10-12T19:50:29.503] [DEBUG] Docs - Try to find text content: "You"
+[2025-10-12T19:50:29.503] [INFO] Docs - Check this page
+[2025-10-12T19:51:32.837] [INFO] Docs - Navigating to: https://playwright.dev
+[2025-10-12T19:51:33.906] [INFO] Docs - Click on Docs
+[2025-10-12T19:51:34.346] [INFO] Docs - Click on Writing Test
+[2025-10-12T19:51:35.825] [INFO] Docs - Checking if page contains text: "You"
+[2025-10-12T19:51:35.901] [DEBUG] Docs - Try to find text content: "You"
+[2025-10-12T19:51:35.901] [INFO] Docs - Check this page
+[2025-10-12T19:52:18.316] [INFO] Docs - Navigating to: https://playwright.dev
+[2025-10-12T19:52:19.227] [INFO] Docs - Click on Docs
+[2025-10-12T19:52:20.115] [INFO] Docs - Click on Writing Test
+[2025-10-12T19:52:21.091] [INFO] Docs - Checking if page contains text: "You"
+[2025-10-12T19:52:21.241] [DEBUG] Docs - Try to find text content: "You"
+[2025-10-12T19:52:21.242] [INFO] Docs - Check this page
+[2025-10-12T19:53:30.531] [INFO] Docs  - Navigating to: https://playwright.dev
+[2025-10-12T19:53:31.348] [INFO] Docs  - Click on Docs
+[2025-10-12T19:53:31.680] [INFO] Docs  - Click on Writing Test
+[2025-10-12T19:53:32.568] [INFO] Docs  - Checking if page contains text: "You"
+[2025-10-12T19:53:32.614] [DEBUG] Docs  - Try to find text content: "You"
+[2025-10-12T19:53:32.614] [INFO] Docs  - Check this page

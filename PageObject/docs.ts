@@ -1,7 +1,7 @@
 // import { Logger } from "log4js";
 // import { createLogger } from "../logger";
 import { expect, type Locator, type Page } from '@playwright/test';
-import { BasePage } from "../basePage";
+import { BasePage } from "./basePage";
 
 
 export class Docs extends BasePage {

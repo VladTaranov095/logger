@@ -1,15 +1,15 @@
 import { Logger } from "log4js";
-import { createLogger } from "./logger";
+import { createLogger } from "../logger";
 import { expect, Page } from '@playwright/test';
 
 
 export abstract class BasePage{
     readonly logger: Logger;
-    readonly page: Page;
+    protected readonly page: Page;
     readonly baseUrl: string;
 
     constructor(page:Page){
-        this.logger = createLogger('test');
+        this.logger = createLogger(this.constructor.name + " ");
         this.page = page;
         this.baseUrl = process.env.BASE_URL || 'https://playwright.dev';    
     }

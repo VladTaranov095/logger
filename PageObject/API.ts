@@ -1,7 +1,7 @@
 // import { Logger } from "log4js";
 // import { createLogger } from "../logger";
 import { expect, type Locator, type Page } from '@playwright/test';
-import { BasePage } from "../basePage";
+import { BasePage } from "./basePage";
 
 
     export class Api extends BasePage {
@@ -15,7 +15,7 @@ import { BasePage } from "../basePage";
         constructor(page: Page) {
 
             super(page);
-            // this.logger = createLogger('test');
+            // this.logger = createLogger('API');
             // this.page = page;
             this.apiButton = page.locator('//*[@id="__docusaurus"]/nav/div[1]/div[1]/a[3]');
             this.apiRequest = page.locator('//*[@id="__docusaurus_skipToContent_fallback"]/div/div/aside/div/div/nav/ul/li/ul/li[3]/ul/li[1]/a');
