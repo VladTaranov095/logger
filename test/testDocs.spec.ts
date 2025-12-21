@@ -7,5 +7,5 @@ test('Check text content on page Docs', async ({ page }) => {
   await docsCheck.goto();
   await docsCheck.clickDocsButton();
   await docsCheck.clickWritingTestTab();
-  await docsCheck.checkText("You");
+  await docsCheck.checkText("You")
 });
