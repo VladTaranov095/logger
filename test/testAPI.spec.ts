@@ -9,5 +9,5 @@ test('Check text content on page API', async ({ page }) => {
     await ApiCheck.clickApiButton();
     await ApiCheck.clickApiRequest();
     await ApiCheck.checkText('Exposes API that can be used for the Web API testing.');
-})
+});
 //asdada

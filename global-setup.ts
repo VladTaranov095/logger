@@ -1,10 +1,6 @@
-import { configure, shutdown } from 'log4js';
 
-async function globalSetup() {
-  try {
-  } catch (error) {
-  }
-}
+
+async function globalSetup() {}
 
 export default globalSetup;
 

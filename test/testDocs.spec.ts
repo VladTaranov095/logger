@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test');
-const { Docs } = require('../PageObject');
+import { test } from '@playwright/test';
+import { Docs } from '../PageObject';
 
 test('Check text content on page Docs', async ({ page }) => {
   process.env['testId'] = 'Docs';

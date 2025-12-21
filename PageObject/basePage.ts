@@ -11,7 +11,7 @@ export abstract class BasePage{
     constructor(page:Page){
         this.logger = createLogger(this.constructor.name + " ");
         this.page = page;
-        this.baseUrl = process.env.BASE_URL || 'https://playwright.dev';    
+        this.baseUrl = process.env.BASE_URL || 'https://playwright.dev';
     }
 
     async goto(): Promise<void> {
@@ -28,4 +28,3 @@ export abstract class BasePage{
     }
 
 }
- 

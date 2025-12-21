@@ -1,11 +1,11 @@
 import { defineConfig, devices } from '@playwright/test';
-const dotenv = require('dotenv');
-const env = process.env.NODE_ENV || 'development'
+import dotenv from 'dotenv';
+const env = process.env.NODE_ENV || 'development';
 const envPath = env === 'test' ? '.env.test' : '.env';
 
 dotenv.config({
-  path: envPath, 
-  override: true, 
+  path: envPath,
+  override: true,
 });
 /**
  * Read environment variables from file.
@@ -33,7 +33,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-     baseURL: process.env.BASE_URL,
+    baseURL: process.env.BASE_URL,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 

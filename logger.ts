@@ -1,5 +1,5 @@
 import * as log4js from 'log4js';
-import { Api } from './PageObject';
+
 
 // require('dotenv').config();
 
@@ -40,8 +40,8 @@ log4js.configure({
 
 export const createLogger = (name: string): log4js.Logger => {
     const logger = log4js.getLogger(`${name}`);
-    if(process.env['testId']) {
+    if (process.env['testId']) {
         logger.addContext('testId', process.env['testId']);
-    } else {logger.addContext('testId', "aad");};
+    } else { logger.addContext('testId', "aad"); };
     return logger;
 };

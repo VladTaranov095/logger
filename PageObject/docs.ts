@@ -1,6 +1,6 @@
 // import { Logger } from "log4js";
 // import { createLogger } from "../logger";
-import { expect, type Locator, type Page } from '@playwright/test';
+import { type Locator, type Page } from '@playwright/test';
 import { BasePage } from "./basePage";
 
 
@@ -33,11 +33,11 @@ export class Docs extends BasePage {
         await this.writingTestTab.click();
     }
 
-//     async checkText(text: string) {
-//          this.logger.info(`Checking if page contains text: "${text}"`);
-//          const pageText = await this.page.locator('body').textContent();
-//          this.logger.debug(`Try to find text content: "${text}"`);
-//          this.logger.info('Check this page');
-//          expect(pageText, `This page does not contain needed text content: "${text}"`).toContain(text);
-// }
+    //     async checkText(text: string) {
+    //          this.logger.info(`Checking if page contains text: "${text}"`);
+    //          const pageText = await this.page.locator('body').textContent();
+    //          this.logger.debug(`Try to find text content: "${text}"`);
+    //          this.logger.info('Check this page');
+    //          expect(pageText, `This page does not contain needed text content: "${text}"`).toContain(text);
+    // }
 }

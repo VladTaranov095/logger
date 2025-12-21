@@ -10,16 +10,23 @@
     "test:fatal": "LOG_LEVEL=fatal npx playwright test",
     "test:trace": "LOG_LEVEL=trace npx playwright test",
     "test:off": "LOG_LEVEL=off npx playwright test",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "lint": "eslint . --ext .js,.mjs,.cjs,.ts,.mts,.cts --max-warnings=0",
+    "lint:fix": "eslint . --ext .js,.mjs,.cjs,.ts,.mts,.cts --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.26",
-    "dotenv": "^17.2.2"
+    "dotenv": "^17.2.2",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript-eslint": "^8.48.0"
   },
   "dependencies": {
     "log4js": "^6.9.1"
