@@ -25,7 +25,7 @@ export class Docs extends BasePage {
 
     async clickDocsButton() {
         this.logger.info('Click on Docs');
-        await this.docsButton.click()
+        await this.docsButton.click();
     }
 
     async clickWritingTestTab() {
