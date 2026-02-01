@@ -29,7 +29,7 @@ pipeline {
                         git config user.email "jenkins@ci.com"
                         git config user.name "Jenkins"
                         git remote set-url origin https://%USER%:%TOKEN%@github.com/VladTaranov095/logger.git
-                        git push origin main
+                        git push push_from_jenkins
                     '''
                 }
             }
