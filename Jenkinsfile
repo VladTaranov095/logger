@@ -2,79 +2,35 @@ pipeline {
     agent any
     
     stages {
-        stage('Проверка окружения') {
+        stage('Клонирование') {
             steps {
-                bat 'echo Проверяю систему...'
-                bat 'node --version'
-                bat 'npm --version'
-                bat 'git --version'
-                bat 'git branch'  // Проверим текущую ветку
+                // Просто клонируем ветку main
+                bat 'git clone -b main https://github.com/VladTaranov095/logger.git . || cd .'
+                bat 'git branch'
             }
         }
         
-        stage('Установка зависимостей') {
+        stage('Линт') {
             steps {
-                bat 'npm install'
+                bat 'npm run lint'
             }
         }
         
-        stage('Запуск линтера') {
+        stage('Пуш') {
             steps {
-                script {
-                    echo "🚀 Запускаю ESLint..."
-                    bat 'npm run lint'
-                    echo "✅ Линтер прошел успешно!"
+                withCredentials([usernamePassword(
+                    credentialsId: 'github-token',
+                    usernameVariable: 'USER',
+                    passwordVariable: 'TOKEN'
+                )]) {
+                    bat '''
+                        git config user.email "jenkins@ci.com"
+                        git config user.name "Jenkins"
+                        git remote set-url origin https://%USER%:%TOKEN%@github.com/VladTaranov095/logger.git
+                        git push origin main
+                    '''
                 }
             }
-        }
-        
-        stage('Пуш кода в Git') {
-            when {
-                expression { currentBuild.result == null }
-            }
-            steps {
-                script {
-                    echo "📤 Отправляю код в репозиторий..."
-                    
-                    withCredentials([usernamePassword(
-                        credentialsId: 'github-token',
-                        usernameVariable: 'GIT_USER',
-                        passwordVariable: 'GIT_TOKEN'
-                    )]) {
-                        bat '''
-                            echo Настраиваю Git...
-                            git config user.email "jenkins@example.com"
-                            git config user.name "Jenkins CI"
-                            
-                            echo Обновляю URL репозитория с токеном...
-                            git remote set-url origin https://%GIT_USER%:%GIT_TOKEN%@github.com/VladTaranov095/logger.git
-                            
-                            echo Определяю текущую ветку...
-                            for /f "tokens=*" %%i in ('git branch --show-current') do set BRANCH=%%i
-                            echo Текущая ветка: %BRANCH%
-                            
-                            echo Отправляю изменения...
-                            git push origin %BRANCH%
-                            
-                            if %errorlevel% equ 0 (
-                                echo ✅ Код успешно отправлен в GitHub!
-                            ) else (
-                                echo ❌ Ошибка при пуше!
-                                exit 1
-                            )
-                        '''
-                    }
-                }
-            }
-        }
-    }
-    
-    post {
-        success {
-            echo '🎉 УСПЕХ! Линтинг пройден, код отправлен в репозиторий.'
-        }
-        failure {
-            echo '❌ ПРОВАЛ! Линтер нашел ошибки или пуш не удался.'
         }
     }
 }
