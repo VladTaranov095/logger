@@ -2,11 +2,13 @@ pipeline {
     agent any
     
     stages {
-        stage('Клонирование') {
+        stage('Подготовка') {
             steps {
-                // Просто клонируем ветку main
-                bat 'git clone -b main https://github.com/VladTaranov095/logger.git . || cd .'
-                bat 'git branch'
+                bat '''
+                    echo Убеждаюсь что на ветке main...
+                    git checkout -B main
+                    echo Готово!
+                '''
             }
         }
         
