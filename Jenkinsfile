@@ -8,6 +8,7 @@ pipeline {
                 bat 'node --version'
                 bat 'npm --version'
                 bat 'git --version'
+                bat 'git branch'  // Проверим текущую ветку
             }
         }
         
@@ -20,16 +21,15 @@ pipeline {
         stage('Запуск линтера') {
             steps {
                 script {
-                    echo " Запускаю ESLint..."
-                    bat 'npm run lint'  // или ваша команда запуска линтера
-                    echo " Линтер прошел успешно!"
+                    echo "🚀 Запускаю ESLint..."
+                    bat 'npm run lint'
+                    echo "✅ Линтер прошел успешно!"
                 }
             }
         }
         
         stage('Пуш кода в Git') {
             when {
-                // Выполняем только если предыдущие stages прошли успешно
                 expression { currentBuild.result == null }
             }
             steps {
@@ -37,7 +37,7 @@ pipeline {
                     echo "📤 Отправляю код в репозиторий..."
                     
                     withCredentials([usernamePassword(
-                        credentialsId: 'github-token',  // ← ВАШ ID!
+                        credentialsId: 'github-token',
                         usernameVariable: 'GIT_USER',
                         passwordVariable: 'GIT_TOKEN'
                     )]) {
@@ -49,10 +49,19 @@ pipeline {
                             echo Обновляю URL репозитория с токеном...
                             git remote set-url origin https://%GIT_USER%:%GIT_TOKEN%@github.com/VladTaranov095/logger.git
                             
-                            echo Отправляю изменения...
-                            git push origin HEAD
+                            echo Определяю текущую ветку...
+                            for /f "tokens=*" %%i in ('git branch --show-current') do set BRANCH=%%i
+                            echo Текущая ветка: %BRANCH%
                             
-                            echo  Код успешно отправлен в GitHub!
+                            echo Отправляю изменения...
+                            git push origin %BRANCH%
+                            
+                            if %errorlevel% equ 0 (
+                                echo ✅ Код успешно отправлен в GitHub!
+                            ) else (
+                                echo ❌ Ошибка при пуше!
+                                exit 1
+                            )
                         '''
                     }
                 }
@@ -65,7 +74,7 @@ pipeline {
             echo '🎉 УСПЕХ! Линтинг пройден, код отправлен в репозиторий.'
         }
         failure {
-            echo ' ПРОВАЛ! Линтер нашел ошибки. Код не отправлен.'
+            echo '❌ ПРОВАЛ! Линтер нашел ошибки или пуш не удался.'
         }
     }
 }
