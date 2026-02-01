@@ -2,39 +2,38 @@ pipeline {
     agent any
     
     stages {
-        stage('Запуск линтера') {
+        stage('Подготовка') {
+            steps {
+                bat 'echo Проверяю окружение...'
+                bat 'node --version'
+                bat 'npm --version'
+            }
+        }
+        
+        stage('Установка зависимостей') {
+            steps {
+                bat 'npm ci'  // Или npm install
+            }
+        }
+        
+        stage('Запуск ESLint') {
             steps {
                 script {
-                    echo "🚀 Запускаю линтер..."
-                                        
-                    sh 'npx eslint'
-                    
-                    echo "✅ Линтер прошел успешно!"
+                    echo "🔍 Проверяю код..."
+                    // Если линтер возвращает ошибки, он "упадет" здесь
+                    // и сборка остановится
+                    bat 'npm run lint'
+                    echo "Код соответствует стандартам!"
                 }
             }
         }
         
-        stage('Пуш кода') {
-            steps {
-                script {
-                    echo "📤 Пушим код в репозиторий..."
-                    
-                    // Настройка git (если нужно)
-                    sh 'git config --global user.email "jenkins@example.com"'
-                    sh 'git config --global user.name "Jenkins CI"'
-                    
-                    // Пуш в текущую ветку
-                    sh 'git push origin HEAD'
-                    
-                    echo "Код успешно запушен!"
-                }
-            }
-        }
+        // Пока УБРАТЬ stage 'Пуш кода' - сначала наладим линтер
     }
     
     post {
-        failure {
-            echo 'Линтинг не прошел. Код не запушен!'
+        always {
+            echo "Сборка завершена: ${currentBuild.result}"
         }
     }
 }
