@@ -27,8 +27,29 @@ pipeline {
                 }
             }
         }
+
+        stage('Пуш кода') {
+            when {
+                expression { currentBuild.result == null }
+            }
+            steps {
+                script {
+                    withCredentials([usernamePassword(
+                        credentialsId: 'github-token',  // ← СОВПАДАЕТ С ID В JENKINS!
+                        usernameVariable: 'GIT_USER',
+                        passwordVariable: 'GIT_TOKEN'
+                    )]) {
+                        bat '''
+                            git config user.email "jenkins@example.com"
+                            git config user.name "Jenkins CI"
+                            git remote set-url origin https://%GIT_USER%:%GIT_TOKEN%@github.com/VladTaranov095/logger.git
+                            git push origin HEAD
+                            echo ✅ Код запушен успешно!
+                        '''
+                    }
+                }
+            }
         
-        // Пока УБРАТЬ stage 'Пуш кода' - сначала наладим линтер
     }
     
     post {
@@ -36,4 +57,5 @@ pipeline {
             echo "Сборка завершена: ${currentBuild.result}"
         }
     }
+}
 }
