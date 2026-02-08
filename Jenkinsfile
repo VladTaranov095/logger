@@ -46,4 +46,5 @@ pipeline {
             echo 'Linting passed successfully!'
         }
     }
+    
 }
