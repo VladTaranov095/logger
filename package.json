@@ -11,6 +11,11 @@
     "test:trace": "LOG_LEVEL=trace npx playwright test",
     "test:off": "LOG_LEVEL=off npx playwright test",
     "test": "npx playwright test",
+    "test:ci": "npx playwright test --retries=2 --workers=1",           
+    "test:pr": "npx playwright test --grep @smoke --retries=1",         
+    "test:smoke": "npx playwright test --grep @smoke",                 
+    "test:regression": "npx playwright test --grep @regression",        
+    "postinstall": "npx playwright install chromium",                   
     "lint": "eslint . --ext .js,.mjs,.cjs,.ts,.mts,.cts --max-warnings=0",
     "lint:fix": "eslint . --ext .js,.mjs,.cjs,.ts,.mts,.cts --fix"
   },
@@ -21,7 +26,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.26",
+    "@types/node": "^22.19.17",
     "dotenv": "^17.2.2",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",

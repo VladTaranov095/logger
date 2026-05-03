@@ -14,8 +14,8 @@ export class Docs extends BasePage {
         super(page);
         // this.logger = createLogger('test');
         // this.page = page;
-        this.docsButton = page.locator('//*[@id="__docusaurus"]/nav/div[1]/div[1]/a[2]');
-        this.writingTestTab = page.locator('//*[@id="__docusaurus_skipToContent_fallback"]/div/div/aside/div/div/nav/ul/li[1]/ul/li[2]/a');
+        this.docsButton = page.getByRole('link', { name: 'Docs' });
+        this.writingTestTab = page.locator('li.theme-doc-sidebar-item-link a[href="/docs/writing-tests"]');
     }
 
     // async goto() {
@@ -23,15 +23,23 @@ export class Docs extends BasePage {
     //     await this.page.goto('https://playwright.dev');
     // }
 
-    async clickDocsButton() {
-        this.logger.info('Click on Docs');
-        await this.docsButton.click();
-    }
+    //  async clickDocsButton() {
+    //     await this.click(this.docsButton, 'Docs Button');
+    // }
 
-    async clickWritingTestTab() {
-        this.logger.info('Click on Writing Test');
-        await this.writingTestTab.click();
-    }
+    // async clickWritingTestTab() {
+    //     await this.click(this.writingTestTab, 'Writing Test Tab');
+    // }
+
+    // async clickDocsButton() {
+    //     this.logger.info('Click on Docs');
+    //     await this.docsButton.click();
+    // }
+
+    // async clickWritingTestTab() {
+    //     this.logger.info('Click on Writing Test');
+    //     await this.writingTestTab.click();
+    // }
 
     //     async checkText(text: string) {
     //          this.logger.info(`Checking if page contains text: "${text}"`);

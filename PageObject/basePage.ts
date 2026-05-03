@@ -1,7 +1,6 @@
 import { Logger } from "log4js";
 import { createLogger } from "../logger";
-import { expect, Page } from '@playwright/test';
-
+import { expect, Page, Locator } from '@playwright/test';
 
 export abstract class BasePage{
     readonly logger: Logger;
@@ -25,6 +24,14 @@ export abstract class BasePage{
              this.logger.debug(`Try to find text content: "${text}"`);
              this.logger.info('Check this page');
              expect(pageText, `This page does not contain needed text content: "${text}"`).toContain(text);
+    }
+
+   async click(element: Locator) {
+        await element.waitFor({ state: 'visible', timeout: 100000 });
+        const text = await element.textContent();
+        const description = text ? `"${text.trim()}"` : 'element';
+        this.logger.info(`Clicking on: ${description}`);
+        await element.click();
     }
 
 }

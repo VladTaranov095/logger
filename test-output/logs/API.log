@@ -183,3 +183,59 @@
 [2025-11-30T17:57:36.535] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
 [2025-11-30T17:57:36.678] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
 [2025-11-30T17:57:36.678] [INFO] Api  - Check this page
+[2026-03-15T18:44:40.408] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-03-15T18:44:41.326] [INFO] Api  - Clicking on: Docs Button
+[2026-03-15T18:44:41.723] [INFO] Api  - Clicking on: Writing Test Tab
+[2026-03-15T18:44:42.530] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:44:42.727] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:44:42.727] [INFO] Api  - Check this page
+[2026-03-15T18:45:07.800] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-03-15T18:45:08.679] [INFO] Api  - Clicking on: Docs Button
+[2026-03-15T18:45:09.010] [INFO] Api  - Clicking on: Writing Test Tab
+[2026-03-15T18:45:10.182] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:45:10.242] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:45:10.242] [INFO] Api  - Check this page
+[2026-03-15T18:50:54.800] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-03-15T18:50:55.843] [INFO] Api  - Clicking on: "API"
+[2026-03-15T18:50:56.586] [INFO] Api  - Clicking on: "APIRequest"
+[2026-03-15T18:50:57.264] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:50:57.456] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2026-03-15T18:50:57.457] [INFO] Api  - Check this page
+[2026-04-26T17:31:23.058] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T17:32:31.594] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T17:53:17.473] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T17:58:00.000] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T17:58:01.277] [INFO] Api  - Clicking on: "API"
+[2026-04-26T17:58:02.497] [INFO] Api  - Clicking on: "APIRequest"
+[2026-04-26T17:58:02.785] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2026-04-26T17:58:02.837] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2026-04-26T17:58:02.838] [INFO] Api  - Check this page
+[2026-04-26T17:59:19.302] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T17:59:20.601] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:00:20.961] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:00:22.091] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:02:35.433] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:02:36.802] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:03:07.775] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:03:09.139] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:04:39.592] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:04:40.924] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:08:29.642] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:08:30.918] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:13:59.506] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:14:00.975] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:14:41.548] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:14:42.869] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:19:11.825] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:19:13.861] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:21:43.552] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T18:21:45.041] [INFO] Api  - Clicking on: "API"
+[2026-04-26T18:21:46.425] [INFO] Api  - Clicking on: "APIRequest"
+[2026-04-26T18:21:46.643] [INFO] Api  - Checking if page contains text: "Exposes API that can be used for the Web API testing."
+[2026-04-26T18:21:46.690] [DEBUG] Api  - Try to find text content: "Exposes API that can be used for the Web API testing."
+[2026-04-26T18:21:46.691] [INFO] Api  - Check this page
+[2026-04-26T19:12:58.490] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T19:13:07.946] [INFO] Api  - Clicking on: "API"
+[2026-04-26T19:25:22.135] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-04-26T19:29:53.952] [INFO] Api  - Navigating to: https://playwright.dev
+[2026-05-03T18:50:51.231] [INFO] Api  - Navigating to: https://playwright.dev

@@ -16,8 +16,9 @@ export class Api extends BasePage {
         super(page);
         // this.logger = createLogger('API');
         // this.page = page;
-        this.apiButton = page.locator('//*[@id="__docusaurus"]/nav/div[1]/div[1]/a[3]');
-        this.apiRequest = page.locator('//*[@id="__docusaurus_skipToContent_fallback"]/div/div/aside/div/div/nav/ul/li/ul/li[3]/ul/li[1]/a');
+        // this.apiButton = page.getByRole('link', { name: 'API' });
+        this.apiButton = page.locator('a :text("API")');
+        this.apiRequest = page.locator('li.theme-doc-sidebar-item-link a[href="/docs/api/class-apirequest"]');
         // this.baseUrl = process.env.BASE_URL || 'https://playwright.dev';
     }
     // async goto() {
@@ -25,15 +26,15 @@ export class Api extends BasePage {
     //     await this.page.goto(this.baseUrl);
     // }
 
-    async clickApiButton() {
-        this.logger.info('Click on Api');
-        await this.apiButton.click();
-    }
+    // async clickApiButton() {
+    //     this.logger.info('Click on Api');
+    //     await this.apiButton.click();
+    // }
 
-    async clickApiRequest() {
-        this.logger.info('Click on ApiRequest');
-        await this.apiRequest.click();
-    }
+    // async clickApiRequest() {
+    //     this.logger.info('Click on ApiRequest');
+    //     await this.apiRequest.click();
+    // }
 
     // async checkText(text) {
     //      this.logger.info(`Checking if page contains text: "${text}"`);
