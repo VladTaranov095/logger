@@ -7,10 +7,6 @@ node_modules/
 /.env 
 /.env.test
 /eslint.config.mts
-node_modules/
-playwright-report/
-test-results/
-.env
-.env.test
+/test-results/
 *.log
 .DS_Store
