@@ -23,18 +23,10 @@ export class Docs extends BasePage {
     //     await this.page.goto('https://playwright.dev');
     // }
 
-    //  async clickDocsButton() {
-    //     await this.click(this.docsButton, 'Docs Button');
-    // }
-
-    // async clickWritingTestTab() {
-    //     await this.click(this.writingTestTab, 'Writing Test Tab');
-    // }
-
-    // async clickDocsButton() {
-    //     this.logger.info('Click on Docs');
-    //     await this.docsButton.click();
-    // }
+    async clickDocsButton() {
+        this.logger.info('Click on Docs');
+        await this.docsButton.click();
+    }
 
     // async clickWritingTestTab() {
     //     this.logger.info('Click on Writing Test');
