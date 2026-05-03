@@ -17,8 +17,8 @@ export class Api extends BasePage {
         // this.logger = createLogger('API');
         // this.page = page;
         // this.apiButton = page.getByRole('link', { name: 'API' });
-        this.apiButton = page.locator('a :text("API")');
-        this.apiRequest = page.locator('li.theme-doc-sidebar-item-link a[href="/docs/api/class-apirequest"]');
+        this.apiButton = page.locator('//*[@id="__docusaurus"]/nav/div[1]/div[1]/a[5]');
+        this.apiRequest = page.locator('//*[@id="__docusaurus_skipToContent_fallback"]/div/div/aside/div/div/nav/ul/li/ul/li[3]/ul/li[1]/a');
         // this.baseUrl = process.env.BASE_URL || 'https://playwright.dev';
     }
     // async goto() {
